@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La tua Agenzia Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">La tua Agenzia</div>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#pacchetti">Pacchetti</a></li>
+                <li><a href="#team">Il nostro team</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1 class="animate-title">La tua Agenzia Web</h1>
+            <p class="animate-subtitle">Creiamo soluzioni digitali su misura per la tua attività.</p>
+            <button class="cta-home">Scopri di più</button>
+        </div>
+    </section>
+
+    <section id="chi-siamo" class="section">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>Chi siamo</h1>
+                <p>La nostra mission è aiutare le aziende a crescere nel mondo digitale, offrendo soluzioni su misura per ogni esigenza. Con oltre <strong>10 anni di esperienza</strong> nel settore, il nostro team di esperti si dedica a creare siti web che combinano design, funzionalità e innovazione.</p>
+                <ul class="about-values">
+                    <li><span class="icon">🌟</span> Innovazione costante</li>
+                    <li><span class="icon">🤝</span> Relazioni con i clienti al centro</li>
+                    <li><span class="icon">💡</span> Soluzioni creative e su misura</li>
+                </ul>
+                <a href="#pacchetti" class="cta-button">Scopri i nostri servizi</a>
+            </div>
+            <div class="about-image">
+                <img src="2027600-persone-sul-computer-che-lavorano-sulla-scrivania-gratuito-vettoriale.jpg" alt="Team al lavoro">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="pacchetti" class="section">
+        <h2>Pacchetti</h2>
+        <div class="packages">
+            <div class="package">
+                <h3>Pacchetto Base</h3>
+                <ul class="features">
+                    <li>Design responsivo</li>
+                    <li>1 pagina personalizzata</li>
+                    <li>Supporto via email</li>
+                </ul>
+                <p>Prezzo: €299</p>
+            </div>
+            <div class="package">
+                <h3>Pacchetto Intermedio</h3>
+                <ul class="features">
+                    <li>Design responsivo</li>
+                    <li>3 pagine personalizzate</li>
+                    <li>Form di contatto</li>
+                </ul>
+                <p>Prezzo: €599</p>
+            </div>
+            <div class="package">
+                <h3>Pacchetto Premium</h3>
+                <ul class="features">
+                    <li>Design responsivo avanzato</li>
+                    <li>Fino a 10 pagine personalizzate</li>
+                    <li>SEO di base incluso</li>
+                </ul>
+                <p>Prezzo: €999</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <h2>Il nostro team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="path/to/photo1.jpg" alt="Nome Cognome 1">
+                <div>
+                    <h4>Nome Cognome 1</h4>
+                    <p>Titolo di studio, breve descrizione...</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="path/to/photo2.jpg" alt="Nome Cognome 2">
+                <div>
+                    <h4>Nome Cognome 2</h4>
+                    <p>Titolo di studio, breve descrizione...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contatti" class="section">
+        <h2>Contatti</h2>
+        <p class="intro-text">Siamo qui per aiutarti! Compila il form o utilizza uno dei seguenti metodi per metterti in contatto con noi.</p>
+        <div class="contact-container">
+            <!-- Colonna 1: Informazioni di contatto -->
+            <div class="contact-info">
+                <h3>Dettagli di Contatto</h3>
+                <p><strong>Email:</strong> info@tuoagenzia.com</p>
+                <p><strong>Telefono:</strong> +39 123 456 789</p>
+                <p><strong>Indirizzo:</strong> Via Roma, 123, 00100 Roma</p>
+                <p><strong>Orari:</strong> Lun-Ven 9:00 - 18:00</p>
+            </div>
+            
+            <!-- Colonna 2: Form di contatto -->
+            <div class="contact-form">
+                <h3>Scrivici</h3>
+                <form>
+                    <input type="text" name="nome" placeholder="Il tuo nome" required>
+                    <input type="email" name="email" placeholder="La tua email" required>
+                    <textarea name="messaggio" placeholder="Il tuo messaggio" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Invia</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Pulsanti d'azione -->
+        <div class="cta-container">
+            <button class="cta-action" id="btn-preventivo">Richiedi un preventivo</button>
+            <button class="cta-action" id="btn-consulenza">Prenota una consulenza gratuita</button>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 La tua Agenzia Web. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
